@@ -1,0 +1,56 @@
+#show:hover {
+	background-color: skyblue;
+}
+
+
+
+#terms {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	/*grid-template: 150px / auto auto auto auto;*/
+
+	grid-gap: 10px;
+  	/*background-color: black;*/
+  	padding: 10px 1;
+
+  	
+
+}
+
+#terms > div {
+	background-color: rgba(255, 255, 255, 0.8);
+  	text-align: center;
+  	background-color: gold;
+  	padding: 15px 0;
+  	font-size: 30px;
+
+}
+
+
+
+
+
+
+
+h1 {
+	text-shadow: 2px 2px 5px blue;
+
+
+}
+
+#textarea {
+	border:solid 5px darkblue;
+	/*align-content: left;*/
+	align-content: top-left;
+
+}
+
+
+#search {
+	display: inline-flex;
+
+	border: solid 3px blue;
+	padding: 8px;
+}
+
+
